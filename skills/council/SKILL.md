@@ -13,8 +13,17 @@ and explore new ideas, skip fixes to code being replaced.
 Bring in three delegates to help with the user's request, usually for review
 or feedback. Use one strong model from each of three different providers, at
 high reasoning effort. If the user's instructions name council members, use
-those. Otherwise pick the latest flagship model from each provider, for
-example Claude Opus, GPT Sol, Mistral, GLM and Gemini Pro.
+those. Otherwise pick each provider's everyday model, as defined below.
+
+Model lineups change often, so choose from today's catalog every time. Do not
+use model names you remember or names from this file. Do not choose a model
+because its name has a family word like "Pro" in it. Here a provider is the
+company that makes the model, not the harness that runs it. One harness can
+serve models from several makers. First drop orchestrator, router, flash,
+mini, and haiku variants. Then, for each maker, take its newest generation and
+the first model the catalog lists for it. That is the everyday model. Do not
+trade it for a model you think is stronger or weaker unless the user asks. If
+the short list leaves models out, search the catalog before you choose.
 
 In T3 Code, use `orchestrator_capabilities` to resolve the models, then
 `delegate_task` to start one delegate per model in parallel. Elsewhere, use
@@ -45,9 +54,9 @@ Rounds: 2
 
 | Delegate | Round 1 | Round 2 |
 | --- | --- | --- |
-| Claude Opus | 7/10 | 9/10 |
-| GPT Sol | 8/10 | 10/10 |
-| Gemini Pro | 7/10 | 9/10 |
+| <model label> | 7/10 | 9/10 |
+| <model label> | 8/10 | 10/10 |
+| <model label> | 7/10 | 9/10 |
 ```
 
 If a delegate gives no score, write `no score`. Do not invent one.
