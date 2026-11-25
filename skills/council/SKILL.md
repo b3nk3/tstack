@@ -13,7 +13,7 @@ and explore new ideas, skip fixes to code being replaced.
 Bring in three delegates to help with the user's request, usually for review
 or feedback. Use one strong model from each of three different providers, at
 high reasoning effort. If the user's instructions name council members, use
-those. Otherwise pick each provider's strongest everyday model.
+those. Otherwise pick each provider's everyday model, as defined below.
 
 Model lineups change often, so choose from today's catalog every time. Do not
 use model names you remember or names from this file. Do not choose a model
