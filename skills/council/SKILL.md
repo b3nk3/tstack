@@ -17,11 +17,13 @@ those. Otherwise pick each provider's strongest everyday model.
 
 Model lineups change often, so choose from today's catalog every time. Do not
 use model names you remember or names from this file. Do not choose a model
-because its name has a family word like "Pro" in it. For each provider, take
-the newest generation, then the first model the catalog lists for it. Skip
-premium tiers above that everyday model unless the user asks for them. Also
-skip orchestrator, router, flash, mini, and haiku variants. If the short list
-leaves models out, search the catalog before you choose.
+because its name has a family word like "Pro" in it. Here a provider is the
+company that makes the model, not the harness that runs it. One harness can
+serve models from several makers. First drop orchestrator, router, flash,
+mini, and haiku variants, and premium tiers above the everyday model unless
+the user asks for them. Then, for each maker, take its newest generation and
+the first model the catalog lists for it. If the short list leaves models
+out, search the catalog before you choose.
 
 In T3 Code, use `orchestrator_capabilities` to resolve the models, then
 `delegate_task` to start one delegate per model in parallel. Elsewhere, use
